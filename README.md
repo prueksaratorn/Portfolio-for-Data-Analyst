@@ -13,7 +13,7 @@ Prueksaratorn Tharnprasert
 - Dashboard
 - Essential Statistics
 
-Badge : https://badgr.com/public/assertions/MHmqHOovSUuPzZGIutc5lA?identity__email=prueksaratorn.t@gmail.com
+Badge: https://badgr.com/public/assertions/MHmqHOovSUuPzZGIutc5lA?identity__email=prueksaratorn.t@gmail.com
 
 # Mini Data Science Bootcamp consists of the following:
 - SQL
@@ -21,4 +21,4 @@ Badge : https://badgr.com/public/assertions/MHmqHOovSUuPzZGIutc5lA?identity__ema
 - Descriptive Statistics
 - Essential Economics
 
-Badge : https://badgr.com/public/assertions/fbcJWGnjSzyNchKmFbi1ug?identity__email=prueksaratorn.t@gmail.com
+Badge: https://badgr.com/public/assertions/fbcJWGnjSzyNchKmFbi1ug?identity__email=prueksaratorn.t@gmail.com
