@@ -1,8 +1,8 @@
 ## Portfolio-for-Data-Analyst
 Prueksaratorn Tharnprasert
 # Contact
-Email: prueksaratorn.t@gmail.com
-Tel No.: 081-915-9910
+- Email: prueksaratorn.t@gmail.com
+- Tel No.: 081-915-9910
 # Objective
 - I am seeking a data analyst role where I can apply my analytical and statistical skills gained from my Economics degree. I have been actively self-learning and developing the necessary skills for this role through online classes from DataRockie and other available sources. My skills include SQL databases, spreadsheets, programming, dashboard, statistics, etc. for helping businesses make better decisions based on data.
 
