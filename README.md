@@ -1,5 +1,5 @@
 # Portfolio-for-Data-Analyst
-Prueksaratorn Tharnprasert
+Prueksaratorn Tharnprasert (Bright)
 ## Contact
 - Email: prueksaratorn.t@gmail.com
 - Tel No.: 081-915-9910
