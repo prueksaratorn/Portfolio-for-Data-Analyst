@@ -1,5 +1,5 @@
 # US Wildfires
-- Open Datasource From: [US Wildfires](https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires)
+- Open Datasource From: [Kaggle](https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires)
 
 ## Procedures
 ### 1. Data is almost clear; nothing needs to be prepared or cleaned.
