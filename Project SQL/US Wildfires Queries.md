@@ -1,6 +1,6 @@
 # US Wildfires
 - 24 years of geo-referenced wildfire records
-- Fire Data from 1992 - 2015 in US
+- Fires Data from 1992 - 2015 in US
 - Open Datasource From: [US Wildfires](https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires)
 
 ### Procedures
