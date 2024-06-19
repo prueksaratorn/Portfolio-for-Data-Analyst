@@ -3,8 +3,7 @@
 
 ## Procedures
 ### 1. Data is almost clear; nothing needs to be prepared or cleaned.
-### 2. Analyze the data and create queries.
-
+### 2. Analyze the data and create queries:
 
 2.1. Number of Fires by Year (จำนวนไฟป่าในแต่ละปี)
 ```sql
@@ -85,7 +84,7 @@ FROM NWCG_UnitIDActive_20170109
 GROUP BY State
 ORDER BY State
 ```
-### 3. Analyzing Data for Benefits
+### 3. Analysis data consists of:
 - Number of Fires by Year: แสดงแนวโน้มของการเกิดไฟป่าในแต่ละปี แสดงถึงการเปลี่ยนแปลงของการเกิดไฟป่าในแต่ละปี
 - Number of Fires by Cause: ระบุสาเหตุการเกิดไฟป่าที่พบบ่อยที่สุด แสดงถึง สาเหตุหลักของการเกิดไฟป่า สามารถวางแผนเพื่อลดปัจจัยการเกิดไฟป่าได้
 - Geographic Distribution of Fires: แสดงรัฐที่เกิดไฟป่าบ่อยที่สุด แสดงถึง รัฐที่เกิดไฟป่าบ่อย โดยทางรัฐนั้นๆจะได้จัดสรรทรัพยากรเพื่อป้องกันหรือช่วยเหลือได้อย่างเพียงพอ
@@ -95,7 +94,7 @@ ORDER BY State
 - Number of Fires by Fire Size Class: แบ่งประเภทไฟป่าตามขนาด แสดงถึง ระดับของไฟ โดยที่หน่วยงานที่จัดการจะได้จัดสรรทรัพยากรเพื่อ take action ต่อไฟป่าที่เกิดขึ้นได้อย่างเพียงพอ
 - Number of Fires by State: แสดงจำนวนไฟป่าตามรัฐต่างๆ
 
-### 4. Summarize
+### 4. Summarize Data.
 #### These data can be used for:
 - การวางแผนและป้องกันไฟป่าในอนาคต จากการระบุแนวโน้วไฟป่าในแต่ละปี ว่ามีมากขึ้นหรือน้อยลง เพื่อให้สามารถจัดการวางแผนป้องกันและจัดสรรทรัพยากรได้
 - วางแผนและการบริหารจัดการไฟป่า จากการใช้ข้อมูล จำนวนไฟป่าที่เกิดในรัฐต่างๆจากรายงานที่เก็บโดยหน่วยงานต่างๆ เพื่อให้หน่วยงานต่างๆสามารถวางแผนมาตรการในการลดการเกิดไฟป่า
