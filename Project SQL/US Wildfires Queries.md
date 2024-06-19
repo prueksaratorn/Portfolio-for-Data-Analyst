@@ -2,7 +2,7 @@
 - Open Datasource From: [US Wildfires](https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires)
 
 ### Procedures
-1. Data is almost clear; nothing needs to be prepared or cleaned. All the details that I want are there.
+1. Data is almost clear; nothing needs to be prepared or cleaned.
 2. Analyze the data and create queries.
 
 
