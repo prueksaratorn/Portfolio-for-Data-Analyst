@@ -6,3 +6,8 @@
 
 ![EURO PLAYER 2024](https://img2.pic.in.th/pic/UEFA_EURO_2024_PLAYER.jpg)
 
+- From this report, you can select a country and a club (only from the Euro squad) to view the minimum age, maximum age, average age, defensive count, midfield count, forward count, and total number of players.
+- Additionally, you can view a table of players including Name, Position, Age, Height, Preferred Foot, Club, Goals this season, and Market Value.
+- Charts:
+  - Pie Chart: Provides the distribution of players by position.
+  - Column Chart: Shows the market value by country and the preferred foot by country.
