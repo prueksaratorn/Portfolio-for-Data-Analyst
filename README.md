@@ -14,13 +14,12 @@
 - Spreadsheets
 - SQL Databases
 - R Programming
-- Dashboard
+- Data Visualization
 - Essential Statistics
+- Python Programming
+- Machine Learning
 - Badge: https://badgr.com/public/assertions/MHmqHOovSUuPzZGIutc5lA?identity__email=prueksaratorn.t@gmail.com
 
-## Mini Data Science Bootcamp consists of the following:
-- SQL
-- Google Gemini
-- Descriptive Statistics
-- Essential Economics
-- Badge: https://badgr.com/public/assertions/fbcJWGnjSzyNchKmFbi1ug?identity__email=prueksaratorn.t@gmail.com
+## Hard skills:
+
+## Soft skills:
