@@ -1,9 +1,9 @@
 # US Wildfires
 - Open Datasource From: [US Wildfires](https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires)
 
-### Procedures
-1. Data is almost clear; nothing needs to be prepared or cleaned.
-2. Analyze the data and create queries.
+## Procedures
+### 1. Data is almost clear; nothing needs to be prepared or cleaned.
+### 2. Analyze the data and create queries.
 
 
 2.1. Number of Fires by Year (จำนวนไฟป่าในแต่ละปี)
@@ -85,12 +85,18 @@ FROM NWCG_UnitIDActive_20170109
 GROUP BY State
 ORDER BY State
 ```
-3. Analyzing Data for Benefits
-- Number of Fires by Year: แสดงแนวโน้มของการเกิดไฟป่าในแต่ละปี
-- Number of Fires by Cause: ระบุสาเหตุการเกิดไฟป่าที่พบบ่อยที่สุด
-- Geographic Distribution of Fires: แสดงรัฐที่เกิดไฟป่าบ่อยที่สุด
-- Details of Fires: แสดงข้อมูลเกี่่ยวกับเหตุการณ์ไฟป่าและรายละเอียดของหน่วยงานที่จัดการดูแล
-- Total Number of Fires: แสดงจำนวนไฟป่ารวมทั้งหมด
-- Number of Fires by Reporting Agency: แสดงหน่วยงานที่รายงานไฟป่ามากที่สุด
-- Number of Fires by Fire Size Class: แบ่งประเภทไฟป่าตามขนาด
-- Number of Fires by State: แสดงจำนวนไฟป่าตามรัฐต่างๆ
+### 3. Analyzing Data for Benefits
+    - Number of Fires by Year: แสดงแนวโน้มของการเกิดไฟป่าในแต่ละปี
+    - Number of Fires by Cause: ระบุสาเหตุการเกิดไฟป่าที่พบบ่อยที่สุด
+    - Geographic Distribution of Fires: แสดงรัฐที่เกิดไฟป่าบ่อยที่สุด
+    - Details of Fires: แสดงข้อมูลเกี่่ยวกับเหตุการณ์ไฟป่าและรายละเอียดของหน่วยงานที่จัดการดูแล
+    - Total Number of Fires: แสดงจำนวนไฟป่ารวมทั้งหมด
+    - Number of Fires by Reporting Agency: แสดงหน่วยงานที่รายงานไฟป่ามากที่สุด
+    - Number of Fires by Fire Size Class: แบ่งประเภทไฟป่าตามขนาด
+    - Number of Fires by State: แสดงจำนวนไฟป่าตามรัฐต่างๆ
+
+### 4. Summarize
+### สามารถนำข้อมูลนี้ไปเพื่อ
+- การวางแผนและป้องกันไฟป่าในอนาคต จากการระบุแนวโน้วไฟป่าในแต่ละปี ว่ามีมากขึ้นหรือน้อยลง เพื่อให้สามารถจัดการวางแผนป้องกันและจัดสรรทรัพยากรได้
+- วางแผนและการบริหารจัดการไฟป่า จากการใช้ข้อมูล จำนวนไฟป่าที่เกิดในรัฐต่างๆจากรายงานที่เก็บโดยหน่วยงานต่างๆ เพื่อให้หน่วยงานต่างๆสามารถวางแผนมาตรการในการลดการเกิดไฟป่า
+
