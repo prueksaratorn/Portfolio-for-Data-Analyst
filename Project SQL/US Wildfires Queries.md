@@ -85,3 +85,12 @@ FROM NWCG_UnitIDActive_20170109
 GROUP BY State
 ORDER BY State
 ```
+3. Analyzing Data for Benefits
+- Number of Fires by Year: แสดงแนวโน้มของการเกิดไฟป่าในแต่ละปี
+- Number of Fires by Cause: ระบุสาเหตุการเกิดไฟป่าที่พบบ่อยที่สุด
+- Geographic Distribution of Fires: แสดงรัฐที่เกิดไฟป่าบ่อยที่สุด
+- Details of Fires: แสดงข้อมูลเกี่่ยวกับเหตุการณ์ไฟป่าและรายละเอียดของหน่วยงานที่จัดการดูแล
+- Total Number of Fires: แสดงจำนวนไฟป่ารวมทั้งหมด
+- Number of Fires by Reporting Agency: แสดงหน่วยงานที่รายงานไฟป่ามากที่สุด
+- Number of Fires by Fire Size Class: แบ่งประเภทไฟป่าตามขนาด
+- Number of Fires by State: แสดงจำนวนไฟป่าตามรัฐต่างๆ
