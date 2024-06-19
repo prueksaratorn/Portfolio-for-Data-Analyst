@@ -1,6 +1,6 @@
 # Portfolio-for-Data-Analyst
-พฤศราฑร ฐานประเสริฐ (ไบร์ท)
-Prueksaratorn Tharnprasert (Bright)
+Thai Name: พฤศราฑร ฐานประเสริฐ (ไบร์ท)
+English Name: Prueksaratorn Tharnprasert (Bright)
 
 ## Contact
 - Email: prueksaratorn.t@gmail.com
