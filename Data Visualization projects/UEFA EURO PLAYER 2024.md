@@ -11,3 +11,7 @@
 - Charts:
   - Pie Chart: Provides the distribution of players by position.
   - Column Chart: Shows the market value by country and the preferred foot by country.
+
+### This report can be used for:
+- If you are a fan of football games like FC24, Football Manager, etc., you can use this report to make decisions to buy or loan players, based on the details provided for the selected country.
+- Search for the player with the highest value in each country.
