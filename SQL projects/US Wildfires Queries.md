@@ -20,7 +20,7 @@ FROM Fires
 GROUP BY FIRE_YEAR
 ORDER BY FIRE_YEAR
 ```
-[q1](https://img2.pic.in.th/pic/q1bcf9a729d3ae6a2e.png)
+![q1](https://img5.pic.in.th/file/secure-sv1/q1.png)
 
 2.2. Number of Fires by cause (สาเหตุการเกิดไฟป่า)
 ```sql
@@ -29,6 +29,7 @@ FROM Fires
 GROUP BY STAT_CAUSE_DESCR
 ORDER BY COUNT(*) DESC
 ```
+![q2](https://img2.pic.in.th/pic/q2.png)
 
 2.3. Geographic Distribution of Fires (รัฐที่เกิดไฟป่าบ่อย)
 ```sql
@@ -41,6 +42,7 @@ ON fi.OBJECTID = nw.OBJECTID
 GROUP BY nw.State
 ORDER BY NumberOfFires DESC
 ```
+![q3](https://img5.pic.in.th/file/secure-sv1/q3.png)
 
 2.4. Details of Fires (รายละเอียดไฟป่าและผู้จัดการ)
 ```sql
@@ -63,6 +65,7 @@ FROM Fires fi
 JOIN NWCG_UnitIDActive_20170109 nw
 ON fi.OBJECTID = nw.OBJECTID
 ```
+![q4](https://img2.pic.in.th/pic/q4.png)
 
 2.5. Total Number of Fires by Year (จำนวนไฟป่าที่เกิดในแต่ละปี)
 ```sql
@@ -70,6 +73,7 @@ SELECT FIRE_YEAR ,COUNT(*) AS TotalNumberOfFires
 FROM Fires
 GROUP BY FIRE_YEAR
 ```
+![q5](https://img2.pic.in.th/pic/q5.png)
 
 2.6. Number of Fires by Agency Preparing Fire Report (จำนวนของไฟป่าที่ถูกรายงานโดยหน่วยงาน)
 ```sql
@@ -78,6 +82,7 @@ FROM Fires
 GROUP BY NWCG_REPORTING_AGENCY
 ORDER BY COUNT(*) DESC
 ```
+![q6](https://img5.pic.in.th/file/secure-sv1/q6.png)
 
 2.7. Number of Fires by Fire Size Class (จำนวนไฟป่า แบ่งตามขนาด)
 ```sql
@@ -86,6 +91,7 @@ FROM Fires
 GROUP BY FIRE_SIZE_CLASS
 ORDER BY FIRE_SIZE_CLASS
 ```
+![q7](https://img5.pic.in.th/file/secure-sv1/q7.png)
 
 2.8. Number of Fires by State (จำนวนไฟป่า แบ่งตามรัฐ)
 ```sql
@@ -94,6 +100,7 @@ FROM NWCG_UnitIDActive_20170109
 GROUP BY State
 ORDER BY NumberOfFires DESC
 ```
+![q8](https://img2.pic.in.th/pic/q8.png)
 
 ### 3. Analysis data consists of:
 - Number of Fires by Year: แสดงแนวโน้มของการเกิดไฟป่าในแต่ละปี แสดงถึงการเปลี่ยนแปลงของการเกิดไฟป่าในแต่ละปี
