@@ -20,6 +20,7 @@ FROM Fires
 GROUP BY FIRE_YEAR
 ORDER BY FIRE_YEAR
 ```
+[q1](https://img2.pic.in.th/pic/q1bcf9a729d3ae6a2e.png)
 
 2.2. Number of Fires by cause (สาเหตุการเกิดไฟป่า)
 ```sql
@@ -91,8 +92,9 @@ ORDER BY FIRE_SIZE_CLASS
 SELECT State, COUNT(*) AS NumberOfFires
 FROM NWCG_UnitIDActive_20170109
 GROUP BY State
-ORDER BY State
+ORDER BY NumberOfFires DESC
 ```
+
 ### 3. Analysis data consists of:
 - Number of Fires by Year: แสดงแนวโน้มของการเกิดไฟป่าในแต่ละปี แสดงถึงการเปลี่ยนแปลงของการเกิดไฟป่าในแต่ละปี
 - Number of Fires by Cause: ระบุสาเหตุการเกิดไฟป่าที่พบบ่อยที่สุด แสดงถึง สาเหตุหลักของการเกิดไฟป่า สามารถวางแผนเพื่อลดปัจจัยการเกิดไฟป่าได้
