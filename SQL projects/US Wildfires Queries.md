@@ -3,7 +3,15 @@
 
 ## Procedures
 ### 1. Data is almost clear; nothing needs to be prepared or cleaned.
-### 2. Analyze the data and create queries:
+### 2. Analysis Objectives:
+- To identify and analyze the yearly trends in the occurrence of wildfires.
+- To determine the most common causes of wildfires.
+- To map out and analyze the geographic distribution of wildfires.
+- To provide detailed information on wildfire incidents, including the handling and management by different agencies.
+- To assess the total number of wildfire incidents over a given period.
+- To categorize wildfires based on their size and analyze the distribution of fire sizes.
+- To analyze the number of wildfires occurring in different states.
+
 
 2.1. Number of Fires by Year (จำนวนไฟป่าในแต่ละปี)
 ```sql
