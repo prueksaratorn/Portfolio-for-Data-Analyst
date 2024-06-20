@@ -63,10 +63,11 @@ JOIN NWCG_UnitIDActive_20170109 nw
 ON fi.OBJECTID = nw.OBJECTID
 ```
 
-2.5. Total Number of Fires (จำนวนไฟป่าที่เกิด)
+2.5. Total Number of Fires by Year (จำนวนไฟป่าที่เกิดในแต่ละปี)
 ```sql
-SELECT COUNT(*) AS TotalNumberOfFires
+SELECT FIRE_YEAR ,COUNT(*) AS TotalNumberOfFires
 FROM Fires
+GROUP BY FIRE_YEAR
 ```
 
 2.6. Number of Fires by Agency Preparing Fire Report (จำนวนของไฟป่าที่ถูกรายงานโดยหน่วยงาน)
@@ -97,7 +98,7 @@ ORDER BY State
 - Number of Fires by Cause: ระบุสาเหตุการเกิดไฟป่าที่พบบ่อยที่สุด แสดงถึง สาเหตุหลักของการเกิดไฟป่า สามารถวางแผนเพื่อลดปัจจัยการเกิดไฟป่าได้
 - Geographic Distribution of Fires: แสดงรัฐที่เกิดไฟป่าบ่อยที่สุด แสดงถึง รัฐที่เกิดไฟป่าบ่อย โดยทางรัฐนั้นๆจะได้จัดสรรทรัพยากรเพื่อป้องกันหรือช่วยเหลือได้อย่างเพียงพอ
 - Details of Fires: แสดงข้อมูลเกี่่ยวกับเหตุการณ์ไฟป่าและรายละเอียดของหน่วยงานที่จัดการดูแล
-- Total Number of Fires: แสดงจำนวนไฟป่ารวมทั้งหมด สามารถนำข้อมูลนี้มาใช้ในการประเมินจำนวนเหตุการณ์ไฟป่าที่เกิดขึ้น
+- Total Number of Fires by Year: แสดงจำนวนไฟป่ารวมทั้งหมดในแต่ละปี สามารถนำข้อมูลนี้มาใช้ในการประเมินจำนวนเหตุการณ์ไฟป่าที่เกิดขึ้น
 - Number of Fires by Reporting Agency: แสดงหน่วยงานที่รายงานไฟป่ามากที่สุด
 - Number of Fires by Fire Size Class: แบ่งประเภทไฟป่าตามขนาด แสดงถึง ระดับของไฟ โดยที่หน่วยงานที่จัดการจะได้จัดสรรทรัพยากรเพื่อ take action ต่อไฟป่าที่เกิดขึ้นได้อย่างเพียงพอ
 - Number of Fires by State: แสดงจำนวนไฟป่าตามรัฐต่างๆ
