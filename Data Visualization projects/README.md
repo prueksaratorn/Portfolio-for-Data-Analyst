@@ -1,4 +1,9 @@
-## Data Visualization Projects:
+## Data Visualization Projects
+
+### Sales Analysis Dashboard
+- Open Datasource From: [Kaggle](https://www.kaggle.com/datasets/abiodunonadeji/united-state-superstore-sales)
+- Visualization by **Looker Studio**
+- View Project: [Sales Analysis Dashboard](https://github.com/prueksaratorn/Portfolio-for-Data-Analyst/blob/main/Data%20Visualization%20projects/Sales%20Analysis%20Dashboard.md)
 
 ### UEFA EURO PLAYER 2024
 - Open Datasource From: [Kaggle](https://www.kaggle.com/datasets/damirdizdarevic/uefa-euro-2024-players)
